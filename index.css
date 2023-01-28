@@ -8,17 +8,30 @@ body {
   font-family: "ROBOTO", sans-serif;
 }
 
-.nav,
+.nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  position: relative;
+  background-color: #1e1f26;
+  text-align: center;
+  padding: 0 2em;
+}
 .slider {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
   position: relative;
   background-color: #1e1f26;
   text-align: center;
   padding: 0 2em;
+}
+.s{
+  height: 450px;
 }
 
 .nav h1,
@@ -113,7 +126,7 @@ a {
 }
 .background {
   position: absolute;
-  height: 90vh;
+  height: 300px !important;
   top: 0;
   bottom: 0;
   left: 0;
@@ -154,7 +167,7 @@ a {
 }
 .background {
   position: absolute;
-  height: 100vh;
+  height: 10vh;
   top: 0;
   bottom: 0;
   left: 0;
@@ -236,4 +249,81 @@ a {
 }
 .loader span:nth-child(22) {
   -webkit-animation-delay: 2.1s;
+}
+
+
+/* body{
+  margin: 0;
+  padding: 0;
+  background: rgb(67, 124, 150);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.5rem;
+} */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.container {
+  width: 40vw;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(3, 60, 126);
+  font-size: 2rem;
+}
+
+ol {
+  position: relative;
+  padding: 10px ;
+}
+
+ol li {
+  background: rgba(255, 255, 255, 0.2);
+  list-style-type: none;
+  padding: 0.6rem 1.25rem;
+  color: #fff;
+  height: 1.87rem;
+  margin: 5px 5px;
+  transition: .5s;
+  border-radius: 5px;
+  text-align: center;
+}
+
+ol li:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+a{
+  color:rgb(196, 31, 31);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 700px) {
+  body{
+      font-size: 1.1rem;
+  }
+
+  .main-container {
+      margin-top: -2vh;
+  }
+
+  .container {
+      width: 45vw;
+  }
 }
