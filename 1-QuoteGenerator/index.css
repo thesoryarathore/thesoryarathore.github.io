@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: #ff9d00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='3.3' stroke-opacity='0' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23f1930f' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23e38817' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23d57e1d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23c77421' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23b96b24' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23ab6126' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%239e5827' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23914e29' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23844529' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23773c29' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%236a3329' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%235e2b29' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23512228' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23451a28' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23391227' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232c0a25' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    width: auto;
+    max-width: 900px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.4);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.quote-text {
+    font-size: 3rem;
+}
+
+.long-quote {
+    font-size: 2rem;
+}
+
+.fa-quote-left {
+   font-size: 4rem;
+}
+
+.quote-author {
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 400;
+    font-weight: 350;
+    font-style: italic;
+}
+
+.button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    cursor: pointer;
+    font-size: 1.3rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #333;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: rgba(255, 255, 255,0.65);
+}
+
+.fa-twitter {
+    font-size: 1.5rem;
+}
+
+.twitter-button:hover {
+    color: #38a1f3;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #333; 
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+@media screen and (max-width:1000px) {
+    .quote-container {
+        margin: auto 10px;
+    }
+    
+    .quote-text {
+        font-size: 2.5rem;
+    }
+}
