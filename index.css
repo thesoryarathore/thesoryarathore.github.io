@@ -49,6 +49,58 @@ h1:hover {
   transform: translate3d(0, -10px, 22px);
   color: #ff0266;
 }
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.container {
+  width: 40vw;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(3, 60, 126);
+  font-size: 2rem;
+}
+
+ol {
+  position: relative;
+  padding: 10px ;
+}
+
+ol li {
+  background: rgba(255, 255, 255, 0.2);
+  list-style-type: none;
+  padding: 0.6rem 1.25rem;
+  /* color: ; */
+  background-color: #8febd5;
+  height: 1.87rem;
+  margin: 5px 5px;
+  transition: .5s;
+  border-radius: 5px;
+  text-align: center;
+}
+
+ol li:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+a{
+  color:rgb(196, 31, 31);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
 
 .slider h2 {
   font-size: 2vw;
@@ -126,7 +178,7 @@ a {
 }
 .background {
   position: absolute;
-  height: 300px !important;
+  height: 50% !important;
   top: 0;
   bottom: 0;
   left: 0;
@@ -178,6 +230,19 @@ a {
   color: #faebd7;
   text-shadow: 0 0 0 #faebd7;
   -webkit-animation: loading 1s ease-in-out infinite alternate;
+}
+@media screen and (max-width: 700px) {
+  body{
+      font-size: 1.1rem;
+  }
+
+  .main-container {
+      margin-top: -2vh;
+  }
+
+  .container {
+      width: 45vw;
+  }
 }
 
 @-webkit-keyframes loading {
@@ -249,71 +314,4 @@ a {
 }
 .loader span:nth-child(22) {
   -webkit-animation-delay: 2.1s;
-}
-
-.main-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 2vh;
-}
-
-.container {
-  width: 40vw;
-}
-
-h1 {
-  text-align: center;
-  color: rgb(3, 60, 126);
-  font-size: 2rem;
-}
-
-ol {
-  position: relative;
-  padding: 10px ;
-}
-
-ol li {
-  background: rgba(255, 255, 255, 0.2);
-  list-style-type: none;
-  padding: 0.6rem 1.25rem;
-  color: #fff;
-  height: 1.87rem;
-  margin: 5px 5px;
-  transition: .5s;
-  border-radius: 5px;
-  text-align: center;
-}
-
-ol li:hover {
-  cursor: pointer;
-  filter: brightness(90%);
-}
-
-a{
-  color:rgb(196, 31, 31);
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover,
-a:active {
-  text-decoration: underline;
-}
-
-
-@media screen and (max-width: 700px) {
-  body{
-      font-size: 1.1rem;
-  }
-
-  .main-container {
-      margin-top: -2vh;
-  }
-
-  .container {
-      width: 45vw;
-  }
 }
