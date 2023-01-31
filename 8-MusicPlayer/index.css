@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+/* Images created by: https://unsplash.com/@pawel_czerwinski */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* background: url("<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 100 60'><rect fill='#cc5577' width='100' height='60'/><g fill-opacity='0.94'><rect  fill='#cc5577' width='11' height='11'/><rect  fill='#cf5675' x='10' width='11' height='11'/><rect  fill='#d25673' y='10' width='11' height='11'/><rect  fill='#d55771' x='20' width='11' height='11'/><rect  fill='#d8586f' x='10' y='10' width='11' height='11'/><rect  fill='#db596c' y='20' width='11' height='11'/><rect  fill='#dd5a6a' x='30' width='11' height='11'/><rect  fill='#df5b67' x='20' y='10' width='11' height='11'/><rect  fill='#e25c65' x='10' y='20' width='11' height='11'/><rect  fill='#e45e62' y='30' width='11' height='11'/><rect  fill='#e65f5f' x='40' width='11' height='11'/><rect  fill='#e8615c' x='30' y='10' width='11' height='11'/><rect  fill='#e96359' x='20' y='20' width='11' height='11'/><rect  fill='#eb6557' x='10' y='30' width='11' height='11'/><rect  fill='#ec6753' y='40' width='11' height='11'/><rect  fill='#ed6950' x='50' width='11' height='11'/><rect  fill='#ee6b4d' x='40' y='10' width='11' height='11'/><rect  fill='#ef6e4a' x='30' y='20' width='11' height='11'/><rect  fill='#f07047' x='20' y='30' width='11' height='11'/><rect  fill='#f17343' x='10' y='40' width='11' height='11'/><rect  fill='#f17540' y='50' width='11' height='11'/><rect  fill='#f1783c' x='60' width='11' height='11'/><rect  fill='#f17b39' x='50' y='10' width='11' height='11'/><rect  fill='#f17e35' x='40' y='20' width='11' height='11'/><rect  fill='#f18131' x='30' y='30' width='11' height='11'/><rect  fill='#f0842d' x='20' y='40' width='11' height='11'/><rect  fill='#f08729' x='10' y='50' width='11' height='11'/><rect  fill='#ef8a24' x='70' width='11' height='11'/><rect  fill='#ee8d1f' x='60' y='10' width='11' height='11'/><rect  fill='#ed9019' x='50' y='20' width='11' height='11'/><rect  fill='#eb9313' x='40' y='30' width='11' height='11'/><rect  fill='#ea970a' x='30' y='40' width='11' height='11'/><rect  fill='#e89a00' x='20' y='50' width='11' height='11'/><rect  fill='#e69d00' x='80' width='11' height='11'/><rect  fill='#e4a000' x='70' y='10' width='11' height='11'/><rect  fill='#e2a400' x='60' y='20' width='11' height='11'/><rect  fill='#e0a700' x='50' y='30' width='11' height='11'/><rect  fill='#ddaa00' x='40' y='40' width='11' height='11'/><rect  fill='#daae00' x='30' y='50' width='11' height='11'/><rect  fill='#d7b100' x='90' width='11' height='11'/><rect  fill='#d4b400' x='80' y='10' width='11' height='11'/><rect  fill='#d1b700' x='70' y='20' width='11' height='11'/><rect  fill='#cdbb00' x='60' y='30' width='11' height='11'/><rect  fill='#cabe00' x='50' y='40' width='11' height='11'/><rect  fill='#c6c100' x='40' y='50' width='11' height='11'/><rect  fill='#c2c400' x='90' y='10' width='11' height='11'/><rect  fill='#bdc700' x='80' y='20' width='11' height='11'/><rect  fill='#b9ca00' x='70' y='30' width='11' height='11'/><rect  fill='#b4ce00' x='60' y='40' width='11' height='11'/><rect  fill='#afd100' x='50' y='50' width='11' height='11'/><rect  fill='#a9d400' x='90' y='20' width='11' height='11'/><rect  fill='#a4d700' x='80' y='30' width='11' height='11'/><rect  fill='#9eda00' x='70' y='40' width='11' height='11'/><rect  fill='#97dd00' x='60' y='50' width='11' height='11'/><rect  fill='#90e000' x='90' y='30' width='11' height='11'/><rect  fill='#89e309' x='80' y='40' width='11' height='11'/><rect  fill='#81e618' x='70' y='50' width='11' height='11'/><rect  fill='#79e822' x='90' y='40' width='11' height='11'/><rect  fill='#6feb2c' x='80' y='50' width='11' height='11'/><rect  fill='#64EE34' x='90' y='50' width='11' height='11'/></g></svg>"); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 650;
+  font-size: 13px;
+}
+
+.player-container {
+  height: 500px;
+  width: 400px;
+  background: #119296;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img-container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+    border-radius: 20px;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 5px 0 0;
+}
+
+/* Progress */
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px 20px;
+  height: 4px;
+  width: 90%;
+}
+
+.progress {
+  background: #242323;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.duration-wrapper {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Controls */
+.player-controls {
+  position: relative;
+  top: -15px;
+  left: 120px;
+  width: 200px;
+}
+
+.fas {
+  font-size: 30px;
+  color: rgb(129, 129, 129);
+  margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fas:hover {
+  filter: brightness(80%);
+}
+
+.main-button {
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+}
+
+/* Media Query: iPhone (Vertical) */
+@media screen and (max-width: 376px) {
+  .player-container {
+    width: 95vw;
+  }
+
+  .img-container {
+    left: 29px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .player-controls {
+    top: -10px;
+    left: 100px;
+  }
+}
