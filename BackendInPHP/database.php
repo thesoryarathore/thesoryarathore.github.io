@@ -1,8 +1,8 @@
 <?php
 $servername="localhost";
-$username="root";
-$password="";
-$database="library";
+$username="id18067696_root";
+$password="Sorya@7777777";
+$database="id18067696_library";
 $con=mysqli_connect($servername,$username,$password,$database);
 if(!$con)
 {
